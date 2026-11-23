@@ -1,0 +1,19 @@
+# 可选第三方 literature-research 的配置样例。
+# 复制为 config/literature-research.local.yaml（已忽略），再填写本机 data_root。
+# 这是独立于 config/project.local.toml 的辅助全文索引项目。
+project: r11-support
+topic: Building design parameters, energy performance and indoor environmental comfort
+# 建议填绝对路径，如 C:/research/building-literature-r11/data/literature-research
+# 留空则使用第三方默认 ~/.literature-research/projects
+data_root: ""
+output_language: zh-CN
+screening_mode: generic
+require_pdf_for_inclusion: true
+require_method_primary: false
+original_research_only: false
+search_terms:
+  - building energy performance
+  - sensitivity analysis
+  - thermal comfort
+pdf_fetch_policy: after_screening
+pdf_methods: unpaywall,publisher

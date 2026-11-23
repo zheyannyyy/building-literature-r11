@@ -2,6 +2,8 @@
 /progress/
 /outputs/
 /config/*.local.toml
+/config/*.local.yaml
+/config/*.local.yml
 .venv/
 __pycache__/
 *.egg-info/
