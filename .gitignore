@@ -1,0 +1,14 @@
+/data/
+/progress/
+/outputs/
+/config/*.local.toml
+.venv/
+__pycache__/
+*.egg-info/
+/build/
+/dist/
+.env
+.env.*
+*.pdf
+*.xlsx
+*.docx
