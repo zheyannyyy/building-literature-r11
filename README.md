@@ -4,6 +4,8 @@
 
 ## 开始使用
 
+**首次使用或接手旧进度，请从 [快速上手](references/quick-start.md) 开始。** 里面有 Windows 命令、配置示例和可直接发给 Codex 的续跑指令。
+
 先准备本地的 **897 篇主工作簿**、项目现行 **EX01–EX07 定义**和可访问的全文资料。续跑时还需要已有的逐篇 JSON 和批次工作簿。实际工作簿、PDF 和筛选结果保存在本地。
 
 1. 在本仓库根目录用 Python 3.11 或更新版本运行 `python -m pip install -e .`。
@@ -32,7 +34,7 @@
 | 位置 | 内容 |
 | --- | --- |
 | `.agents/skills/` | Codex 全文取证和分项审查指令 |
-| `references/` | r11 筛选条款、SOP、证据字段和双 Skill 协作指南 |
+| `references/` | 快速上手、r11 筛选条款、SOP、证据字段和双 Skill 协作指南 |
 | `config/` | 项目路径示例与可选第三方文献库配置样例 |
 | `src/r11_pipeline/` | 下载、草稿、结论汇总、证据、批次和 Excel 输出模块 |
 | `tests/` | 使用合成记录的自动化测试，可运行 `python -m unittest discover -s tests` |
